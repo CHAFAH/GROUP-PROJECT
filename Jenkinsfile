@@ -1,2 +1,0 @@
-properties(commonModuleJobProps())
-buildBroadleafModule(params)
