@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Introduction
 
 BroadleafCommerce is an e-commerce framework written entirely in Java and leveraging the Spring framework. It is targeted at facilitating the development of enterprise-class, commerce-driven sites by providing a robust data model, services and specialized tooling that take care of most of the "heavy lifting" work. To accomplish this goal, we have developed our platform based on the key feature sets required by world-class online retailers - and we're committed to continually expanding our feature offering. We've also taken extra steps to guarantee interoperability with today's enterprise by utilizing standards wherever possible and incorporating best-of-breed, open-source software libraries.
@@ -114,3 +115,37 @@ business users to dynamically drive the most appropriate content to users.
 
 
 We also offer various levels of [enterprise support licenses](http://broadleafcommerce.com/support). Please [contact us](http://broadleafcommerce.com/contact) for information.
+=======
+# GROUP-PROJECT
+# This application is deployed by a group of DevOps Engineers from LandmarkTech
++ App deployment with db
+  3tier Application Deployment
+## Project Design
++ FrontEnd======= Nginx LB
++ BackEnd======== App Server Market Place
++ DataBase======= MongoDB
+## Specifications
++ Highly Available -- 3 AZ(Nodes), LB , ReplicaSet 6(pods)
++ Highly Scalable -- ReplicaSet 6(pods)
++ Security--VPC, NameSpace, LB
+## Requirements
++ VPC 3AZ
++ SG 8080 9000 22 8081 443
++ Jenkins  instance
++ Sonar Instance
++ Nexus Instance
++ Kops Instance Master Node
++ S3 Bucket
++ IAM role   AWS CLI
+
+## Installations
++ Java, Nexus, Jenkins, Sonar, JavnOpenjdk, Git, Docker, Kubectl, Terraform, wget
++ Configure Jira
+## Deployment Directories
++ Source Code
++ Pom
++ Dockerfile
++ Jenkinsfile
++ app.yml
++ terraform.tf
+>>>>>>> main/master
