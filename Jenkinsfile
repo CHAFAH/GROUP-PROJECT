@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('MAVEN_CLEAN_PACKAGE') {
+        stage('MAVEN_COMPILE_PACKAGES') {
             steps {
                 script {
                     def mavenHome = tool name: "maven3.9.4", type: "maven"
