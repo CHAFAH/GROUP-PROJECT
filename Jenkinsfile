@@ -17,5 +17,14 @@ pipeline {
                 }
             }
         }
+        stage('UPLOAD ARTIFACTS') {
+            steps {
+                script {
+                    def mavenHome = tool name: "maven3.9.4", type: "maven"
+                    def mavenCMD = "${mavenHome}/bin/mvn"
+                    sh "${mavenCMD} deploy"
+                }
+            }
+        }
      }
  }
