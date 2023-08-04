@@ -65,6 +65,20 @@
         <sunxml.version>3.0.2</sunxml.version>
         <javax-annotation.version>1.3.2</javax-annotation.version>
     </properties>
+    <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Technologies Releases Nexus Repository</name>
+	      <url>http://192.168.86.35:8081/repository/Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Technologies Snapshot Nexus Repository </name>
+	      <url>http://192.168.86.35:8081/repository/Snapshots/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     <scm>
         <connection>scm:git:git@github.com:BroadleafCommerce/BroadleafCommerce.git</connection>
         <developerConnection>scm:git:git@github.com:BroadleafCommerce/BroadleafCommerce.git</developerConnection>
