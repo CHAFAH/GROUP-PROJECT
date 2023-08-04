@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 variable "region" {
   description = "AWS region"
