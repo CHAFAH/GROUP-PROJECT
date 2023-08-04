@@ -42,7 +42,7 @@
     </repositories>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <ehcache3.version>3.9.0</ehcache3.version>
+        <ehcache3.version>3.9.4</ehcache3.version>
         <spring.version>5.3.27</spring.version>
         <spring.security.version>5.8.3</spring.security.version>
         <spring.boot.version>2.7.12</spring.boot.version>
