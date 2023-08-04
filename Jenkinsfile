@@ -17,19 +17,5 @@ pipeline {
                 }
             }
         }
-        stage('UPLOAD BUILD ARTIFACTS') {
-            steps {
-                script {
-                    def mavenHome = tool name: "maven3.9.4", type: "maven"
-                    def mavenCMD = "${mavenHome}/bin/mvn"
-                    sh "${mavenCMD} deploy"
-                }
-            }
-        }
-        stage('CODE_QUALITY_CHECK') {
-            steps {
-                sh 'mvn sonar:sonar'
-            }
-        }
      }
  }
