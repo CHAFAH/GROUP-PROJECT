@@ -174,19 +174,19 @@
 
     </dependencies>
 
-    	<distributionManagement>
-    	     <repository>
-	         <id>nexus</id>
-	         <name>Technologies Releases Nexus Repository</name>
-	         <url>http://172.17.16.98:8081/repository/Release/</url>
-	     </repository>
+    <distributionManagement>
+    	<repository>
+	       <id>nexus</id>
+	       <name>Technologies Releases Nexus Repository</name>
+	       <url>http://172.17.16.98:8081/repository/Release/</url>
+	</repository>
 	    
-	     <snapshotRepository>
+        <snapshotRepository>
 	         <id>nexus</id>
 	         <name>Technologies Snapshot Nexus Repository</name>
 	         <url>http://172.17.16.98:8081/repository/Snapshots/</url>
-	     </snapshotRepository>
-    	</distributionManagement>
+	</snapshotRepository>
+    </distributionManagement>
 
 
     <build>
