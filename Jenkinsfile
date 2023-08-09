@@ -26,14 +26,5 @@ pipeline {
                 }
             }
         }
-        stage('CODE COVERAGE') {
-            steps {
-                script {
-                    def mavenHome = tool name: "maven3.9.4", type: "maven"
-                    def mavenCMD = "${mavenHome}/bin/mvn"
-                    sh "${mavenCMD} sonar:sonar"
-                }
-            }
-        }
      }
  }
