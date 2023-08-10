@@ -175,13 +175,13 @@
     	     <repository>
 	         <id>nexus</id>
 	         <name>Technologies Releases Nexus Repository</name>
-	         <url>http://172.17.16.9:8081/repository/Release/</url>
+	         <url>http://172.17.16.98:8081/repository/Grp_Releases/</url>
 	     </repository>
 	    
 	     <snapshotRepository>
 	         <id>nexus</id>
 	         <name>Technologies Snapshot Nexus Repository </name>
-	         <url>http://172.17.16.98:8081/repository/Snapshots/</url>
+	         <url>http://172.17.16.98:8081/repository/Grp_Snspshots/</url>
 	     </snapshotRepository>
     	</distributionManagement>
 
