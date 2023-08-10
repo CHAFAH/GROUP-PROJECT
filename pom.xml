@@ -177,11 +177,11 @@
     	<distributionManagement>
     		<snapshotRepository>
     			<id>ossrh</id>
-    			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    			<url>http://192.168.86.35:8081/repository/Snapshots/</url>
     		</snapshotRepository>
     		<repository>
     			<id>ossrh</id>
-    			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    			<url>http://192.168.86.35:8081/repository/Release/</url>
     		</repository>
     	</distributionManagement>
 
