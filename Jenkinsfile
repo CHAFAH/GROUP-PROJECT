@@ -7,7 +7,6 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/CHAFAH/GROUP-PROJECT.git'
             }
         }
-
         stage('MAVEN_COMPILE_PACKAGES') {
             steps {
                 script {
@@ -17,9 +16,13 @@ pipeline {
                 }
             }
         }
-        stage('Code Check') {
+        stage('CODE_COVERAGE') {
             steps {
-                sh 'mvn sonar:sonar'
+                script {
+                    def mavenHome = tool name: "maven3.9.4", type: "maven"
+                    def mavenCMD = "${mavenHome}/bin/mvn"
+                    sh "${mavenCMD} sonar:sonar"
+                }
             }
         }
      }
