@@ -179,13 +179,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://192.168.86.35:8081/repository/tesla_releases/</url>
+	      <url>http://192.168.86.35:8081/repository/Group_go_Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://192.168.86.35:8081/repository/tesla_spapshots/</url>
+	      <url>http://192.168.86.35:8081/repository/Group_go_Snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
     <build>
