@@ -22,7 +22,7 @@
 	   <logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
 	   <sonar.host.url>http://172.17.16.98:9000/</sonar.host.url>
 	   <sonar.login>admin</sonar.login>
-	   <sonar.password>admin</sonar.password> 
+	   <sonar.password>admin123</sonar.password> 
     </properties>
 
     <dependencies>
@@ -175,13 +175,13 @@
     	     <repository>
 	         <id>nexus</id>
 	         <name>Technologies Releases Nexus Repository</name>
-	         <url>http://172.17.16.98:8081/repository/Release/</url>
+	         <url>http://172.17.16.98:8081/repository/Release2/</url>
 	     </repository>
 	    
 	     <snapshotRepository>
 	         <id>nexus</id>
 	         <name>Technologies Snapshot Nexus Repository</name>
-	         <url>http://172.17.16.98:8081/repository/Snapshots/</url>
+	         <url>http://172.17.16.98:8081/repository/Snapshots2/</url>
 	     </snapshotRepository>
     	</distributionManagement>
 
