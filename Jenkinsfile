@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    tools {
+         maven 'maven3.9.4'
+    }
     stages {
         stage('GIT_SRC_CLONE') {
             steps {
