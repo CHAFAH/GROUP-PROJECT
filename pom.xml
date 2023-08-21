@@ -21,7 +21,7 @@
 	<junit.version>4.11</junit.version>
 	<log4j.version>1.2.17</log4j.version>
 
-	<sonar.host.url>http://192.168.86.35:9000/</sonar.host.url>
+	<sonar.host.url>http://172.17.16.98:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin123</sonar.password>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -179,13 +179,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://192.168.86.35:8081/repository/Group_go_Release/</url>
+	      <url>http://172.17.16.98:8081/repository/Grp_Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://192.168.86.35:8081/repository/Group_go_Snapshot/</url>
+	      <url>http://172.17.16.98:8081/repository/Grp_Snspshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
     <build>
