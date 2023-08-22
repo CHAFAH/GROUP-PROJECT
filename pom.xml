@@ -176,13 +176,13 @@
     	     <repository>
 	         <id>nexus</id>
 	         <name>Technologies Releases Nexus Repository</name>
-	         <url>http://172.24.101.158:8081/repository/Releases2/</url>
+	         <url>http://172.24.101.158:8081/repository/group_release/</url>
 	     </repository>
 	    
 	     <snapshotRepository>
 	         <id>nexus</id>
 	         <name>Technologies Snapshot Nexus Repository</name>
-	         <url>http://172.24.101.158:8081/repository/Snapshots2/</url>
+	         <url>http://172.24.101.158:8081/repository/group_snapshots/</url>
 	     </snapshotRepository>
     </distributionManagement>
 
