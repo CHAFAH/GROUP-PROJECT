@@ -16,9 +16,7 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 
+      MYSQL_ROOT_PASSWORD: admin123 # Set your desired root password here
       MYSQL_DATABASE: test
     ports:
       - "3306:3306" # Map the host port to the container port
-
-
