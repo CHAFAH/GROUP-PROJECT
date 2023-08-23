@@ -7,7 +7,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - "9090:9090" # Map the host port to the container port
-      - "3306:3306"
     depends_on:
       - db # Depends on the database service
 
@@ -21,5 +20,5 @@ services:
       MYSQL_DATABASE: test
     ports:
       - "3306:3306" # Map the host port to the container port
-      - "9090:9090"
+
 
